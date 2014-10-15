@@ -1,0 +1,89 @@
+body{
+	background: #ffffff;
+}
+a{
+	text-decoration: none;
+	color: #848484;
+}
+a:hover{
+	text-decoration: underline;
+}
+h1,h2{
+	font-family: '微軟正黑體', Verdana, Geneva, sans-serif;
+	color: #ffffff;
+	padding: 10px;
+	margin: 0;
+}
+h1{
+	background: #bd5532;
+	font-size: 2em;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+
+}
+h2{
+	background: #bd5532;
+	font-size: 1.5em;
+	-webkit-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+}
+article{
+	border: 1px solid #BDBDBD;
+	background: #F3E2A9;
+	border-top: none;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+section{
+	margin-bottom: 10px;
+}
+#my_photo{
+	width: 200px;
+	border: 10px solid #b3c7c7;
+	margin-top: 10px;
+}
+.container{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.left, .right{
+	position: relative;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.left{
+	float: left;
+	width: 240px;
+}
+.right{
+	float:right;
+	width: 680px;
+}
+.sub_title{
+	background: #6f9d9f;
+	color: #ffffff;
+	padding: 5px;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	
+}
+.content{
+	padding-left: 50px;
+}
+#favorite_website a{
+	font-family: 'Oswald', sans-serif;
+	color: #00BFFF;
+}
+#graduated{
+	font-family: "新細明體";
+	color: #FF8000;
+}
+#favorite_sentence blockquote{
+	font-family: MingLiU;
+	color: #01DF01;
+}
+#related_website ul{
+	font-family: DFKai-sb;
+	color: #0431B4;
+}
